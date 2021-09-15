@@ -1,0 +1,73 @@
+.delecious { 
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    .main { 
+        display: flex;
+        justify-content: center;
+        padding-top: 80px;
+        .left { 
+            img { 
+                padding-top:10% ;
+            }
+        }
+        .middle { 
+            height: 350px;
+            width: 400px;
+            background-color: #F2745F;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            h1 {
+                font-size:25px;
+                font-weight: bold;
+                padding-bottom: 5px;
+            }
+            .orange-clair { 
+                background-color: #F3826F ;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin: 0 20%;
+                padding: 5%;
+                h2 { 
+                    font-size: 15px;
+                }
+                h1 { 
+                    font-size: 18px;
+                }
+        
+
+            }
+            p{
+                font-size: 15px;
+                padding: 5px;
+                width: max-content;
+                border: 1px solid black;
+                border-radius: 50%;
+                margin-top: 20px;
+            }
+            button {
+                background: white;
+                color: #F2745F;
+                letter-spacing: 1px;
+                padding: 15px 20px;
+                border: transparent;
+                border-radius: 5px;
+            }
+
+
+        }
+    .right { 
+            img { 
+                padding-top:10%  ;
+            }
+        }
+
+        
+
+    }  }

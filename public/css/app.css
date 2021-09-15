@@ -6121,24 +6121,26 @@ body {
   background-color: #EAF0FF;
 }
 
-header h1, header .h1 {
+h1, .h1 {
   text-align: center;
   font-family: spectral;
   margin-bottom: 30px;
 }
-header #navbarNav {
+
+#navbarNav {
   position: relative;
 }
-header #navbarNav ul {
+#navbarNav ul {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
-header .bg-header {
+
+.bg-header {
   color: white;
   background-image: url("../../../public/img/banner-bg.jpg");
 }
-header .bg-header .intro-header {
+.bg-header .intro-header {
   display: flex;
   flex-direction: column;
   padding: 10%;
@@ -6146,15 +6148,79 @@ header .bg-header .intro-header {
   justify-content: center;
   margin-top: 30px;
 }
-header .bg-header .intro-header h2, header .bg-header .intro-header .h2 {
+.bg-header .intro-header h2, .bg-header .intro-header .h2 {
   font-size: 20px;
 }
-header .bg-header .intro-header h1, header .bg-header .intro-header .h1 {
+.bg-header .intro-header h1, .bg-header .intro-header .h1 {
   font-size: 50px;
 }
-header .bg-header .intro-header p {
+.bg-header .intro-header p {
   text-align: center;
   width: 50%;
+}
+
+.delecious {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+}
+.delecious .main {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+.delecious .main .left img {
+  padding-top: 10%;
+}
+.delecious .main .middle {
+  height: 350px;
+  width: 400px;
+  background-color: #F2745F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.delecious .main .middle h1, .delecious .main .middle .h1 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.delecious .main .middle .orange-clair {
+  background-color: #F3826F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 20%;
+  padding: 5%;
+}
+.delecious .main .middle .orange-clair h2, .delecious .main .middle .orange-clair .h2 {
+  font-size: 15px;
+}
+.delecious .main .middle .orange-clair h1, .delecious .main .middle .orange-clair .h1 {
+  font-size: 18px;
+}
+.delecious .main .middle p {
+  font-size: 15px;
+  padding: 5px;
+  width: max-content;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.delecious .main .middle button {
+  background: white;
+  color: #F2745F;
+  letter-spacing: 1px;
+  padding: 15px 20px;
+  border: transparent;
+  border-radius: 5px;
+}
+.delecious .main .right img {
+  padding-top: 10%;
 }
 
 /*!
