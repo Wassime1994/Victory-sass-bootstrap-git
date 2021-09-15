@@ -1,0 +1,23 @@
+
+.titre { 
+    padding: 10% 0 ;
+}
+.parent { 
+        background-color: #F2F6FF;
+        padding: 30px;
+        h1 {
+            border-bottom: .5px solid rgb(224, 219, 219);
+            display: flex;
+            justify-content: left;
+            margin-bottom: 20px;
+        }
+    }    
+.prix{
+    background: white ; 
+    opacity: .8;
+    color: #F2745F ;
+    position : absolute;
+    top: 38%;
+    right: 0;
+    padding: 5px;
+}

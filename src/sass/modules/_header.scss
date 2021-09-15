@@ -19,6 +19,7 @@ body {
     .bg-header { 
         color: white;
         background-image: url("../../../public/img/banner-bg.jpg");
+        background-attachment: fixed;
         .intro-header { 
              display : flex ; 
              flex-direction: column ;

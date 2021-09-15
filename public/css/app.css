@@ -6139,6 +6139,7 @@ h1, .h1 {
 .bg-header {
   color: white;
   background-image: url("../../../public/img/banner-bg.jpg");
+  background-attachment: fixed;
 }
 .bg-header .intro-header {
   display: flex;
@@ -6250,6 +6251,31 @@ h1, .h1 {
   border: transparent;
   padding: 10px;
   color: #F2745F;
+}
+
+.titre {
+  padding: 10% 0;
+}
+
+.parent {
+  background-color: #F2F6FF;
+  padding: 30px;
+}
+.parent h1, .parent .h1 {
+  border-bottom: 0.5px solid #e0dbdb;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.prix {
+  background: white;
+  opacity: 0.8;
+  color: #F2745F;
+  position: absolute;
+  top: 38%;
+  right: 0;
+  padding: 5px;
 }
 
 /*!
