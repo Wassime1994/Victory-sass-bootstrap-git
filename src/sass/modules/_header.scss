@@ -1,7 +1,8 @@
 body { 
    background-color: #EAF0FF;
-    ;
-}
+    @media screen and (max-width : 700px) {
+        margin: 0%;
+}}
     h1 {
         text-align: center;
         font-family: spectral;
@@ -25,6 +26,9 @@ body {
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: contain;
+        @media  screen and (max-width:700px) {
+                    background-attachment: local;
+        }
         .intro-header { 
              display : flex ; 
              flex-direction: column ;
@@ -34,13 +38,22 @@ body {
              margin-top: 30px;
             h2 {
                 font-size:20px ;
+                @media screen and (max-width : 700px) {
+                        font-size: 10px;
+                }
             } 
             h1 { 
                  font-size: 50px;
-             }
+                 @media screen and (max-width : 700px) {
+                    font-size: 12px;
+            
+             }}
              p { 
                 text-align: center;
                 width: 50%;
+                @media screen and (max-width : 700px) {
+                    font-size: 8px;
+                }
              }
              button { 
                  background: white;

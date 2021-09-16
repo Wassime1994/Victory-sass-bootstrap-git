@@ -6120,11 +6120,6 @@ readers do not read off random characters that represent icons */
 body {
   background-color: #EAF0FF;
 }
-@media screen and (max-width: 700px) {
-  body {
-    margin: 0%;
-  }
-}
 
 h1, .h1 {
   text-align: center;
@@ -6152,11 +6147,6 @@ hr {
   background-repeat: no-repeat;
   background-size: contain;
 }
-@media screen and (max-width: 700px) {
-  .bg-header {
-    background-attachment: local;
-  }
-}
 .bg-header .intro-header {
   display: flex;
   flex-direction: column;
@@ -6168,27 +6158,12 @@ hr {
 .bg-header .intro-header h2, .bg-header .intro-header .h2 {
   font-size: 20px;
 }
-@media screen and (max-width: 700px) {
-  .bg-header .intro-header h2, .bg-header .intro-header .h2 {
-    font-size: 10px;
-  }
-}
 .bg-header .intro-header h1, .bg-header .intro-header .h1 {
   font-size: 50px;
-}
-@media screen and (max-width: 700px) {
-  .bg-header .intro-header h1, .bg-header .intro-header .h1 {
-    font-size: 12px;
-  }
 }
 .bg-header .intro-header p {
   text-align: center;
   width: 50%;
-}
-@media screen and (max-width: 700px) {
-  .bg-header .intro-header p {
-    font-size: 8px;
-  }
 }
 .bg-header .intro-header button {
   background: white;
@@ -6205,29 +6180,13 @@ hr {
   padding: 20px;
   width: 100%;
 }
-@media screen and (max-width: 700px) {
-  .delecious {
-    margin: 0%;
-  }
-}
 .delecious .main {
   display: flex;
   justify-content: center;
   padding-top: 80px;
 }
-@media screen and (max-width: 700px) {
-  .delecious .main {
-    flex-direction: column;
-    align-items: center;
-  }
-}
 .delecious .main .left img {
   padding-top: 10%;
-}
-@media screen and (max-width: 700px) {
-  .delecious .main .left img {
-    padding: 0%;
-  }
 }
 .delecious .main .middle {
   height: 350px;
@@ -6239,11 +6198,6 @@ hr {
   align-items: center;
   text-align: center;
   color: white;
-}
-@media screen and (max-width: 700px) {
-  .delecious .main .middle {
-    margin-top: 10%;
-  }
 }
 .delecious .main .middle h1, .delecious .main .middle .h1 {
   font-size: 25px;
